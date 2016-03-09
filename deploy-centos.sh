@@ -1,5 +1,5 @@
-yum update
-yum install net-tools
+yum update -y
+yum install -y net-tools
 curl -sL https://deb.nodesource.com/setup_4.x | sh
 yum install -y nodejs 
 npm i -g npm@latest
