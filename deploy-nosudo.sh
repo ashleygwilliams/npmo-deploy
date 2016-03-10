@@ -4,4 +4,4 @@ curl -sL https://deb.nodesource.com/setup_4.x | sh
 apt-get install -y nodejs 
 npm i -g npm@latest
 node -v && npm -v
-npm install npmo -g --unsafe > /dev/null
+npm install npmo -g --unsafe
